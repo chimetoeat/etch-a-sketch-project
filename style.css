@@ -18,16 +18,19 @@
 }
 
 .grid {
-    display: flex;
-    flex-wrap: wrap;
     border: 2px solid red;
 }
 
-.box {
-    width: 50px;
+.row {
+    width: auto;
     height: 50px;
     border: 2px solid black;
-    flex: 1 0 5.8%;
+    display: flex;
+}
+
+.col {
+    width: 50px;
+    border: 2px solid yellow;
 }
 
 
